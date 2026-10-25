@@ -1,0 +1,42 @@
+{
+  "feet": [
+    256,
+    455
+  ],
+  "neck": [
+    267,
+    223
+  ],
+  "shoulder_front": [
+    286,
+    227
+  ],
+  "elbow_front": [
+    286,
+    266
+  ],
+  "shoulder_back": [
+    242,
+    227
+  ],
+  "elbow_back": [
+    242,
+    266
+  ],
+  "hip_front": [
+    269,
+    362
+  ],
+  "hip_back": [
+    237,
+    362
+  ],
+  "scarf_root": [
+    255,
+    221
+  ],
+  "scarf_joint": [
+    210,
+    229
+  ]
+}

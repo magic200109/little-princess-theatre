@@ -1,0 +1,8 @@
+.guestNo{position:fixed;left:50%;bottom:9%;z-index:99;transform:translateX(-50%) rotate(-1.5deg);font-family:"LXGW WenKai TC","Noto Serif TC",serif;font-size:16px;letter-spacing:.08em;
+  background:#f7efdf;color:#4a3a55;border:1px solid #9a7f99;border-radius:4px;padding:8px 18px;box-shadow:.5px 2px 3px rgba(26,20,48,.35);opacity:0;pointer-events:none;transition:opacity .3s}
+.guestNo.on{opacity:1;animation:guestWobble .5s ease}
+@keyframes guestWobble{0%{transform:translateX(-50%) rotate(-1.5deg) translateY(6px)}30%{transform:translateX(-50%) rotate(3deg)}60%{transform:translateX(-50%) rotate(-3deg)}100%{transform:translateX(-50%) rotate(-1.5deg)}}
+.guestBlur{filter:blur(4px);user-select:none}
+
+.lbl{filter:blur(3.5px)!important}
+.prog li .t>span:not(.badge),.prog li .d{filter:blur(4px);user-select:none}
